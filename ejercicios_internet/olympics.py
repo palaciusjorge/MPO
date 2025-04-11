@@ -108,7 +108,7 @@ class Olympics:
             print("No hay medallas por país registradas.")
 
 olympics = Olympics()
-print("Simuladior juegos olimpicos")
+print("Simulador juegos olimpicos")
 while True:
     print()
     print("1.Registro de eventos")
