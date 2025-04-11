@@ -6,4 +6,4 @@ if num > 0:
 elif num < 0:
     print(f"El numero {num} es negativo")
 else:
-    print("0 no es positivo ni negativo")
+    print("0 no es positivo ni negativo, así no hay peleas")
