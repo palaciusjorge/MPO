@@ -1,11 +1,11 @@
 import random
 
-class Paticipant:
+class Participant:
     def __init__(self, name, country):
         self.name = name
         self.country = country
     def __eq__(self, other: object) -> bool:
-        if isinstance(other, Paticipant):
+        if isinstance(other, Participant):
             return self.name == other.name and self.country == other.country
         return False
 
@@ -31,7 +31,7 @@ class Olympics:
             return
         name = input("Introduce el nombre del participante ").strip()
         country = input("Introduce el pais del participante ").strip()
-        participant = Paticipant(name, country)
+        participant = Participant(name, country)
         print("Eventos deportivos disponibles")
         for index,event in enumerate(self.events):
             print(f"{index + 1}.{event}")
