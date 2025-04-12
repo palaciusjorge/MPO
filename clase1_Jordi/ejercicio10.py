@@ -1,5 +1,5 @@
 #EJERCICIO 10
-
+print("El formato en el que tienes que introducir los datos es: día en formato numérico, mes en formato cadena de texto y año en formato numérico")
 dia = int(input("¿Que día es hoy? "))
 mes = str(input("¿De qué mes? ")).lower()
 year = int(input("¿De qué año? "))
