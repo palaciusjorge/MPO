@@ -5,3 +5,4 @@ numero = int(input("Introduce un número entero: "))
 letra = str(input("Introduce una letra: "))
 for i in range(numero):
     print(letra)
+print()

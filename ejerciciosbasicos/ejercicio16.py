@@ -9,4 +9,4 @@ for i in range (entero):
     else:
         continue
 print(f"La lista de divisores de {entero} es: {lista}")
-
+print()
