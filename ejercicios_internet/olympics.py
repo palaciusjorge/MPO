@@ -130,4 +130,5 @@ while True:
         case "5":
             print("Saliendo del simulador")
             break
+        
     
