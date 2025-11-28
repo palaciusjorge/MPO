@@ -66,5 +66,3 @@ if deadpool_health > 0:
 else:
     print("Wolverine ha ganado la pelea.")
     
-
-
