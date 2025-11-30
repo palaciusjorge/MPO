@@ -19,7 +19,7 @@ while True:
             print("Opcion no valida")
 if len(peliculas) > 0:  
     print(set(peliculas))
-    print(f"La primera pelicula mencionada fue: {peliculas[0]}\nLa ultima pelicula mencionada fue: {peliculas[len(peliculas)-1]}")
+    print(f"La primera pelicula mencionada fue: {peliculas[0]}\nLa ultima pelicula mencionada fue: {peliculas[-1]}")
 else:
     print("tu lista de peliculas esta vacia")
     
